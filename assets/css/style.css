@@ -29,3 +29,100 @@ font-family: 'Poppins', sans-serif;
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.hero--image img {
+    width: 348px;
+    height: 145px;
+    border-radius: 18px;
+}
+
+.container {
+    margin: 48px 17px 0px 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--gray-1);
+}
+
+.header,
+.hero--text,
+.join--contact {
+    margin-left: 23px;
+}
+
+.header p:nth-child(1) {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--blue-1);
+}
+
+.header p:nth-child(2) {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width: 272px;
+}
+
+.hero--text p:nth-child(1) {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width: 227px;
+}
+
+.hero--text p:nth-child(2) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--gray-2);
+    width: 275px;
+}
+
+/*for input custom*/
+.input--custom {
+    width: 291px;
+}
+
+.input--custom label {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--gray-3);
+}
+
+.control--group {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    background-color: var(--gray-5);
+    border-radius: 12px;
+    align-items: center;
+}
+
+.control--group input {
+    outline: none;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--gray-2);
+    margin: 12px 0 12px 19px;
+    background-color: transparent;
+    border: none;
+}
+
+.control--group button {
+    cursor: pointer;
+    padding: 11px 21px;
+    width: 71px;
+    height: 39px;
+    background-color: var(--blue-1);
+    color: var(--gray-5);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    margin-right: 5px;
+}
