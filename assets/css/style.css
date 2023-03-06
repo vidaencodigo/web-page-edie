@@ -195,7 +195,8 @@ body {
 .front--end {
     background-color: var(--green-1);
 }
-.back--end{
+
+.back--end {
     background-color: var(--orange-1);
 }
 
@@ -235,4 +236,59 @@ body {
 .btn:hover {
     background-color: var(--blue-1);
     color: var(--gray-5);
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.work--details {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.work>p:nth-child(1) {
+    width: 267px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--gray-1);
+    margin-left: 23px;
+}
+
+.more--details {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--blue-1);
+}
+
+.work--item {
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+}
+
+.work--item--image img {
+    width: 100%;
+    max-width: 545px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.work--item--details p:nth-child(1) {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--gray-3);
+}
+
+.work--item--details p:nth-child(2) {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--gray-1)
 }
