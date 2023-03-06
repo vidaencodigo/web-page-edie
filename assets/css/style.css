@@ -40,6 +40,13 @@ body {
     margin: 48px 17px 0px 17px;
     display: flex;
     flex-direction: column;
+    gap: 80px;
+}
+
+.hero {
+
+    display: flex;
+    flex-direction: column;
     gap: 15px;
     color: var(--gray-1);
 }
@@ -125,4 +132,107 @@ body {
     outline: none;
     border-radius: 12px;
     margin-right: 5px;
+}
+
+/*end*/
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.services>p {
+    margin-left: 23px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--gray-1);
+    width: 259px;
+}
+
+.services--cards {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #fff;
+    padding: 49px 28px 43px 28px;
+
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.card--body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card--header p {
+    width: 67px;
+    height: 67px;
+    border-radius: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui {
+    background-color: var(--blue-1);
+}
+
+.front--end {
+    background-color: var(--green-1);
+}
+.back--end{
+    background-color: var(--orange-1);
+}
+
+.card--header p span {
+    font-size: 36px !important;
+}
+
+.card--body p:nth-child(1) {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.card--body p:nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray-2);
+}
+
+.btn {
+    cursor: pointer;
+    padding: 9px 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray-3);
+    background-color: #E0E0E0;
+    border-radius: 12px;
+}
+
+.card:hover .card--actions>.btn {
+    background-color: var(--blue-1);
+    color: var(--gray-5);
+}
+
+.btn:hover {
+    background-color: var(--blue-1);
+    color: var(--gray-5);
 }
