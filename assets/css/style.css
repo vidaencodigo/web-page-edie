@@ -155,13 +155,14 @@ body {
 .services--cards {
     display: flex;
     gap: 10px;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card {
     background-color: #fff;
     padding: 49px 28px 43px 28px;
-
+    max-width: 341px;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
@@ -301,11 +302,13 @@ body {
     line-height: 27px;
     color: var(--gray-1)
 }
+
 .team {
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap: 30px;
 }
+
 .team--images {
     display: flex;
     flex-direction: row;
@@ -365,4 +368,110 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #4F4F4F;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.testimonial--card {
+    display: flex;
+    gap: 30px;
+}
+
+.testimonial--image img {
+    height: 82px;
+    border-radius: 12px;
+}
+
+.testimonial--meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial--meta p:nth-child(1) {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.testimonial--meta p:nth-child(2) {
+    font-weight: 500;
+    font-size: 18px;
+    color: #828282;
+}
+
+.testimonial--text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.footer {
+    margin-top: 100px;
+    padding: 36px 41px;
+    background-color: #100E1D;
+}
+
+.footer--content {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+.footer--navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer--navigation li a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #fff;
+}
+
+
+.footer--me {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer--me p:nth-child(1) {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.social--links {
+    display: flex;
+    gap: 11px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.social--links li a {
+    color: #fff;
+}
+
+.created {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #F2F2F2;
 }
